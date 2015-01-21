@@ -239,7 +239,90 @@
     [blueBox3 addConstraint:blueBox3ViewWidth];
     
     
-    //Orange Boxes = 30h/70w and 30/50
+    //
+    UIView *purpleBox = [[UIView alloc] initWithFrame:CGRectZero];
+    purpleBox.translatesAutoresizingMaskIntoConstraints = NO;
+    purpleBox.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:purpleBox];
+    self.framingView = purpleBox;
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:purpleBox
+                                                          attribute:NSLayoutAttributeCenterX
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeCenterX
+                                                         multiplier:1.0
+                                                           constant:-20.0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:purpleBox
+                                                          attribute:NSLayoutAttributeCenterY
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeCenterY
+                                                         multiplier:1.0
+                                                           constant:155.0]];
+    
+    NSLayoutConstraint *purpleBox1ViewHeight = [NSLayoutConstraint constraintWithItem:purpleBox
+                                                                            attribute:NSLayoutAttributeHeight
+                                                                            relatedBy:NSLayoutRelationEqual
+                                                                               toItem:nil
+                                                                            attribute:NSLayoutAttributeNotAnAttribute
+                                                                           multiplier:1.0
+                                                                             constant:50.0];
+    
+    NSLayoutConstraint *purpleBox1ViewWidth = [NSLayoutConstraint constraintWithItem:purpleBox
+                                                                           attribute:NSLayoutAttributeWidth
+                                                                           relatedBy:NSLayoutRelationEqual
+                                                                              toItem:nil
+                                                                           attribute:NSLayoutAttributeNotAnAttribute
+                                                                          multiplier:1.0
+                                                                            constant:300.0];
+    
+    [purpleBox addConstraint:purpleBox1ViewHeight];
+    [purpleBox addConstraint:purpleBox1ViewWidth];
+    
+    
+    UIView *redBox = [[UIView alloc] initWithFrame:CGRectZero];
+    redBox.translatesAutoresizingMaskIntoConstraints = NO;
+    redBox.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redBox];
+    self.framingView = redBox;
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:redBox
+                                                          attribute:NSLayoutAttributeCenterX
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeCenterX
+                                                         multiplier:1.0
+                                                           constant:0.0]];
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:redBox
+                                                          attribute:NSLayoutAttributeCenterY
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:self.view
+                                                          attribute:NSLayoutAttributeCenterY
+                                                         multiplier:1.0
+                                                           constant:-50.0]];
+    
+    NSLayoutConstraint *redBoxViewHeight = [NSLayoutConstraint constraintWithItem:redBox
+                                                                            attribute:NSLayoutAttributeHeight
+                                                                            relatedBy:NSLayoutRelationEqual
+                                                                               toItem:nil
+                                                                            attribute:NSLayoutAttributeNotAnAttribute
+                                                                           multiplier:1.0
+                                                                             constant:40.0];
+    
+    NSLayoutConstraint *redBoxViewWidth = [NSLayoutConstraint constraintWithItem:redBox
+                                                                           attribute:NSLayoutAttributeWidth
+                                                                           relatedBy:NSLayoutRelationEqual
+                                                                              toItem:nil
+                                                                           attribute:NSLayoutAttributeNotAnAttribute
+                                                                          multiplier:1.0
+                                                                            constant:135.0];
+    
+    [redBox addConstraint:redBoxViewHeight];
+    [redBox addConstraint:redBoxViewWidth];
+    
     
     UIView *orangeBox1 = [[UIView alloc] initWithFrame:CGRectZero];
     orangeBox1.translatesAutoresizingMaskIntoConstraints = NO;
@@ -264,20 +347,20 @@
                                                            constant:-50.0]];
     
     NSLayoutConstraint *orangeBox1ViewHeight = [NSLayoutConstraint constraintWithItem:orangeBox1
-                                                                          attribute:NSLayoutAttributeHeight
-                                                                          relatedBy:NSLayoutRelationEqual
-                                                                             toItem:nil
-                                                                          attribute:NSLayoutAttributeNotAnAttribute
-                                                                         multiplier:1.0
-                                                                           constant:30.0];
+                                                                            attribute:NSLayoutAttributeHeight
+                                                                            relatedBy:NSLayoutRelationEqual
+                                                                               toItem:nil
+                                                                            attribute:NSLayoutAttributeNotAnAttribute
+                                                                           multiplier:1.0
+                                                                             constant:30.0];
     
     NSLayoutConstraint *orangeBox1ViewWidth = [NSLayoutConstraint constraintWithItem:orangeBox1
-                                                                         attribute:NSLayoutAttributeWidth
-                                                                         relatedBy:NSLayoutRelationEqual
-                                                                            toItem:nil
-                                                                         attribute:NSLayoutAttributeNotAnAttribute
-                                                                        multiplier:1.0
-                                                                          constant:50.0];
+                                                                           attribute:NSLayoutAttributeWidth
+                                                                           relatedBy:NSLayoutRelationEqual
+                                                                              toItem:nil
+                                                                           attribute:NSLayoutAttributeNotAnAttribute
+                                                                          multiplier:1.0
+                                                                            constant:50.0];
     
     [orangeBox1 addConstraint:orangeBox1ViewHeight];
     [orangeBox1 addConstraint:orangeBox1ViewWidth];
@@ -322,9 +405,6 @@
     
     [orangeBox2 addConstraint:orangeBox2ViewHeight];
     [orangeBox2 addConstraint:orangeBox2ViewWidth];
-    
-    
-    //
     
     
     
