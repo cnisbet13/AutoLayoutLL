@@ -214,7 +214,7 @@
                                                                     toItem:self.framingView
                                                                  attribute:NSLayoutAttributeCenterY
                                                                 multiplier:1.0
-                                                                  constant:100.0]];
+                                                                  constant:90.0]];
     
     
     
@@ -253,7 +253,7 @@
                                                                     toItem:self.framingView
                                                                  attribute:NSLayoutAttributeCenterY
                                                                 multiplier:1.0
-                                                                  constant:-100.0]];
+                                                                  constant:-90.0]];
     
     
     
