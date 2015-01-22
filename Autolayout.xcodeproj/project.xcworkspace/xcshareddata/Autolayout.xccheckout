@@ -10,6 +10,8 @@
 	<string>Autolayout</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>43BD03112A8F019BE7E23E2507F2FAF0683CF5A1</key>
+		<string>https://github.com/cnisbet13/AutoLayoutLL.git</string>
 		<key>C039F5EE824BD4AB2F249337409D8753634A35ED</key>
 		<string>https://github.com/lighthouse-labs/iOS-Student-Autolayout.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>Autolayout.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C039F5EE824BD4AB2F249337409D8753634A35ED</key>
+		<key>43BD03112A8F019BE7E23E2507F2FAF0683CF5A1</key>
 		<string>../..</string>
+		<key>C039F5EE824BD4AB2F249337409D8753634A35ED</key>
+		<string>../../../iOS-Student-Autolayout</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/lighthouse-labs/iOS-Student-Autolayout.git</string>
+	<string>https://github.com/cnisbet13/AutoLayoutLL.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C039F5EE824BD4AB2F249337409D8753634A35ED</string>
+	<string>43BD03112A8F019BE7E23E2507F2FAF0683CF5A1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43BD03112A8F019BE7E23E2507F2FAF0683CF5A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Autolayout%20-%20Lighthouse%20Labs</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
